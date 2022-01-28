@@ -1,0 +1,81 @@
+/*
+Theme Name: STN
+
+*/
+
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700");
+
+.app-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0;
+  
+}
+
+.card {
+  
+  background-color: #fafafa;
+  display: flex;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  
+}
+
+.card-content-wrapper {
+    padding: 30px;
+    min-height: 200px;
+    line-height: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    color: #767676;
+}
+
+.card-title {
+      font-size: 1.4rem;
+      line-height: 1.8rem;
+      flex: 0 0 auto;
+}
+
+@media screen and (max-width: 992px) {
+  .card-title{
+    font-size: .8rem;
+  }
+  .title_event{
+    font-size: 18px;
+  }
+
+}
+
+
+.card-content {
+      flex: 1 1 auto;
+      text-align: justify;
+      
+}
+
+.card-link-wrapper {
+
+        flex: 0 0 auto;
+}
+
+.card-link {
+        color: #03A9F4;
+        text-decoration: none;
+        transition: color 0.3s ease-in-out;
+}
+
+.card-link:hover{
+          color: #039BE5;
+}
+
+.card-img {
+    min-width: 250px;
+    background-image: url(https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a20bc6324f6ef2969d9a7cae56b8d4d1&auto=format&fit=crop&w=1350&q=80);
+    background-position: 0 center;
+    background-size: cover;
+}
+
+
